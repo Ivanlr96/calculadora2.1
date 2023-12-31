@@ -1,0 +1,78 @@
+body {
+
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+
+}
+
+.calculator {
+    display: grid;
+    width: 400px;
+    height: 600px;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    background-color: rgb(13, 5, 126);
+    border-radius: 1rem;
+}
+.screen {
+    grid-column: 1/-1;
+    height: 70px;
+   width: 390px;
+   font-size: 30px;
+   font-weight: 500;
+   background-color:  rgb(73, 70, 70);
+   text-align: right;
+   border-radius: 0.5rem;
+   color: aliceblue;
+   
+   
+
+ 
+}
+.btn {
+
+padding: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+border-radius: 0.25em;
+width: 90px;
+height: 60px;
+
+
+}
+
+#calc {
+    
+    background-color: rgb(70, 70, 209);
+    color: white;
+}
+
+#btn2 {
+    background-color: grey;
+}
+
+#div {
+    background-color: grey;
+}
+#cuadrado {
+    background-color: grey;
+}
+#raiz {
+    background-color: grey;
+}
+#del {
+    background-color: grey  ;
+}
+#c {
+    background-color: grey;
+}
+
+#ce {
+    background-color: grey;
+}
